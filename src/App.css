@@ -1,3 +1,13 @@
+* {
+  list-style:none;
+}
+* button {
+  padding: 0;
+  border: none;
+  font: inherit;
+  color: inherit;
+  background-color: transparent; 
+}
 .App {
   text-align: center;
 }
@@ -35,4 +45,36 @@
   to {
     transform: rotate(360deg);
   }
+}
+.header{
+  background: #1C1A19;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 102px;
+}
+.menu__list{
+  display: flex;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+.menu__item{
+  margin-right: 40px;
+  font-size: 20px;
+  font-weight: 400;
+}
+.menu__item:last-child{
+  margin-right: 0px;
+}
+.logos__list{
+  display: flex;
+  align-items: center;
+}
+.logos__item{
+  margin-right: 16px;
+}
+.menu__button{
+color: white;
+cursor: pointer;
 }

@@ -1,0 +1,63 @@
+.container {
+    display: flex;
+    justify-content: center;
+}
+.Login {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    width: 580px;
+    height: 541px;
+    border-radius: 20px;
+    background: white;
+}
+.lable {
+    font-size: 16px;
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.login__text{
+    font-size: 30px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 56px;
+}
+.wrapper__login{
+    background: url('../icons/map1.png');
+}
+.submit{
+    font-size: 25px;
+    padding: 16px 140px;
+    background: #FDBF5A;
+    border-radius: 70px;
+    margin-bottom: 33px;
+    margin-left: 10px;
+}
+input{
+    border:none;
+    background:none;
+    outline:none;
+    padding:5px 5px;
+}
+.newUser{
+    margin-bottom: 46px;
+}
+.Forget__password{
+    color: #828282;
+    font-size: 16px;
+    font-weight: 400;
+    text-align: right;
+    margin-bottom: 46px;
+}
+.yellow__word{
+    color: #FDBF5A;
+    margin-left: 5px;
+}
+.input__block{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid #E4E4E4;
+    margin-bottom: 30px;
+}

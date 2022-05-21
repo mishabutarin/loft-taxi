@@ -10,9 +10,13 @@ const PAGES = {
   map: <Map/>
 }
 class App extends React.Component {
+  constructor(props){
+    super( props )
+    this.state = {currentPage: "map"};
+}
   render() {
     return <>
-    < Header/>
+    <Header/>
     <main>{PAGES[this.state.currentPage]}</main>
     </>
   }

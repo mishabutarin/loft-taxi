@@ -13,10 +13,16 @@ class App extends React.Component {
   constructor(props){
     super( props )
     this.state = {currentPage: "map"};
+    this.navigateTo = this.navigateTo.bind(this);
+}
+navigateTo = (page) => {
+    this.setState({ currentPage:page})
 }
   render() {
     return <>
-    <Header/>
+    <div>
+    <Header navigateTo={ this.navigateTo }/>
+    </div>
     <main>{PAGES[this.state.currentPage]}</main>
     </>
   }

@@ -1,6 +1,5 @@
 import React from 'react';
 import './App.css';
-import Header from './components/header/header';
 import Login from './components/header/header'
 import { Profile } from './components/profile/Profile';
 import Map from './components/map/map';
@@ -20,9 +19,6 @@ navigateTo = (page) => {
 }
   render() {
     return <>
-    <div>
-    <Header navigateTo={ this.navigateTo }/>
-    </div>
     <main>{PAGES[this.state.currentPage]}</main>
     </>
   }
